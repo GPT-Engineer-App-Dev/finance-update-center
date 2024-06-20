@@ -3,7 +3,7 @@ import { FaChartLine, FaNewspaper, FaMoneyBillWave } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#f3f2ef">
       <VStack spacing={8} align="stretch">
         <Box bg="gray.100" p={4} borderRadius="md" boxShadow="md">
           <Heading as="h1" size="xl" mb={2}>Financial Times</Heading>
